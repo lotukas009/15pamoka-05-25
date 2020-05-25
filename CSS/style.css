@@ -1,0 +1,39 @@
+header {
+    background-color: #7d71d3;
+}
+li {
+
+}
+.bg-snow {
+    background-image: url("http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/banner-bg.jpg");
+}
+
+.bg-gray {
+    background-color:lightgrey;
+}
+.bg-elipse {
+    background-image: url("http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/elipse-bg.png");
+}
+
+.bg-blue {
+    background-image: url("http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/shape-overlay-bg.jpg");
+}
+
+.bg-desk{
+    background-image: url("http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/desk-bg.jpg");
+    position: relative;
+}
+
+.bg-desk::before {
+    background-image: url("http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/shape-overlay-bg.jpg");
+    position: absolute;
+    content: "";
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   }
+
+.ptb-90px {
+    padding: 90px; 0; 90px; 0;
+}
